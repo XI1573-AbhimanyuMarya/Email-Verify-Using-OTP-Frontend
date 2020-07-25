@@ -1,0 +1,30 @@
+<div class="xyz">
+    <div id="main">
+
+        <table>
+
+          
+            <tr>
+                
+            <th><input type="text" [(ngModel)]="to_address" name="email" placeholder="Email"> </th>
+            <th style="padding-left: 50px;"> <button type="button" (click)="postData()" class="btn btn-primary btn-sm">Validate Email</button></th>
+                <th> {{emailSuccessMessage}} </th>
+                
+             </tr>
+
+      
+            <tr>
+                <input type="text" id="password" [(ngModel)]="enteredOTP" name="OTP" placeholder="Enter OTP">
+
+            </tr>
+            <tr align="center" style="padding-top: 200px;">
+
+                <button type="button" (click)="validateOTP()" class="btn btn-success btn-sm">Login</button>
+                <td>{{otpSuccessMessage}}</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>

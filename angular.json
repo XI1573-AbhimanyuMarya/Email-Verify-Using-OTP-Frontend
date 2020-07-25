@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "send-email-Frontend"
+    }
+  },
+  "defaultProject": "send-email-Frontend",
+  "cli": {
+    "analytics": "b2db613c-e502-43e2-8469-8dfece14a113"
+  }
 }

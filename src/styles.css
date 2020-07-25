@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    background-image: url(./assets/one.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: auto auto;
+    -webkit-background-size: 1000px;
+    -moz-background-size: 1000px;
+    -o-background-size: 1000px;
+}
