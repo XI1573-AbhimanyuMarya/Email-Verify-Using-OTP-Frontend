@@ -11,11 +11,11 @@ import { LoginServiceService } from 'src/app/services/login-service.service';
 })
 export class EmailAuthComponent implements OnInit {
 
-  emailUrl = '/server/api/send-email';
+  emailUrl = '/api/send-email';
   emailSuccessMessage : String;
   to_address: String;
 
-  verifyOtp = '/server/api/verify?number=';
+  verifyOtp = '/api/verify?number=';
   enteredOTP:number;
   otpSuccessMessage :String;
 
